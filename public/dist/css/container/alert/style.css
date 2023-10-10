@@ -1,0 +1,38 @@
+section {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 16px;
+  padding-top: 32px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 2px 4px 8px 2px #ddd;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #3988ff;
+  padding: 8px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  align-self: center;
+  width: 260px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

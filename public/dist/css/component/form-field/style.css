@@ -1,0 +1,16 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+.field__label {
+  font-size: 14px;
+}
+.field__text {
+  padding: 8px 0;
+  border: none;
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */

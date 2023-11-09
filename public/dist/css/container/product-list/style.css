@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .title {
-  color: #3988ff;
+  color: #1975ff;
   font-weight: bold;
   font-size: 32px;
 }
@@ -54,7 +54,7 @@ main {
 }
 .product__card__button {
   text-decoration: none;
-  color: #3988ff;
+  color: #1975ff;
 }
 .product__card div {
   display: flex;

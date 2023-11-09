@@ -1,7 +1,7 @@
 @use '../../lib/service.scss' as s;
 
 .title {
-  color: s.color('primary');
+  color: s.color(main);
   font-weight: bold;
   font-size: 32px;
 }
@@ -52,7 +52,7 @@ section {
   }
 
   &__input {
-    border: 1px solid s.color('light');
+    border: 1px solid s.color(light);
     padding: s.space(2);
     border-radius: 6px;
 
@@ -63,7 +63,7 @@ section {
   }
 
   &__button {
-    background-color: s.color('primary');
+    background-color: s.color(main);
     padding: s.space(2);
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.8);
@@ -92,7 +92,7 @@ section {
 
 .card {
   border-radius: 12px;
-  box-shadow: 2px 4px 8px 2px s.color('light');
+  box-shadow: 2px 4px 8px 2px s.color(light);
   padding: s.space(5);
 }
 

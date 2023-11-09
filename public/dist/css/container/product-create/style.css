@@ -1,5 +1,5 @@
 .title {
-  color: #3988ff;
+  color: #1975ff;
   font-weight: bold;
   font-size: 32px;
 }
@@ -52,7 +52,7 @@ section {
   color: rgba(134, 134, 134, 0.9);
 }
 .form__button {
-  background-color: #3988ff;
+  background-color: #1975ff;
   padding: 8px;
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.8);

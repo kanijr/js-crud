@@ -10,7 +10,7 @@ section {
 
 .card {
   border-radius: 12px;
-  box-shadow: 2px 4px 8px 2px s.color('light');
+  box-shadow: 2px 4px 8px 2px s.color(light);
   padding: s.space(4);
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@ section {
 }
 
 .button {
-  background-color: s.color('primary');
+  background-color: s.color(main);
   padding: s.space(2);
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.8);

@@ -1,0 +1,99 @@
+@use './service.scss' as s;
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.6s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.main {
+  background-color: s.color(black);
+  height: fit-content;
+  min-height: 100%;
+  color: s.color(white);
+
+  display: flex;
+  justify-content: center;
+  padding: s.space(6) s.space(2);
+
+  &__content {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: s.space(15);
+  }
+}
+
+.title {
+  font-size: 24px;
+
+  &--center {
+    text-align: center;
+  }
+
+  &--small {
+    font-size: 16px;
+  }
+}
+
+.track {
+  display: grid;
+  grid-template-columns: 92px 1fr 42px;
+  gap: s.space(7);
+  align-items: center;
+
+  &__list {
+    display: grid;
+    gap: s.space(7);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: s.space(2);
+  }
+
+  &__author {
+    color: s.color(gray);
+  }
+
+  &__name {
+    font-size: 24px;
+    color: s.color(white);
+  }
+}
+
+.playlist {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: s.space(7);
+  align-items: center;
+
+  &__list {
+    display: grid;
+    gap: s.space(7);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: s.space(2);
+  }
+
+  &__amount {
+    color: s.color(gray);
+    font-size: 16px;
+  }
+
+  &__name {
+    font-size: 24px;
+    color: s.color(white);
+  }
+}

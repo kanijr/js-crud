@@ -209,9 +209,11 @@ router.post('/product-create', function (req, res) {
 
   res.render('alert', {
     style: 'alert',
-    title: 'Успішне виконання дії',
-    info: 'Товар був успішно створений',
-    link: '/product-list',
+    data: {
+      title: 'Успішне виконання дії',
+      info: 'Товар був успішно створений',
+      link: '/product-list',
+    },
   })
 })
 
@@ -239,8 +241,11 @@ router.get('/product-edit', function (req, res) {
   } else {
     res.render('alert', {
       style: 'alert',
-      title: 'Помилка',
-      info: 'Товар з таким ID не знайдено',
+      data: {
+        title: 'Помилка',
+        info: 'Товар з таким ID не знайдено',
+        link: '/product-list',
+      },
     })
   }
 })
@@ -258,8 +263,11 @@ router.post('/product-edit', function (req, res) {
 
   res.render('alert', {
     style: 'alert',
-    title: result ? 'Успішне виконання дії' : 'Помилка',
-    info: result ? 'Товар був успішно оновлено' : '',
+    data: {
+      title: result ? 'Успішне виконання дії' : 'Помилка',
+      info: result ? 'Товар був успішно оновлено' : '',
+      link: '/product-list',
+    },
   })
 })
 
@@ -272,8 +280,11 @@ router.get('/product-delete', function (req, res) {
 
   res.render('alert', {
     style: 'alert',
-    title: result ? 'Успішне виконання дії' : 'Помилка',
-    info: result ? 'Товар був успішно видалено' : '',
+    data: {
+      title: result ? 'Успішне виконання дії' : 'Помилка',
+      info: result ? 'Товар був успішно видалено' : '',
+      link: '/product-list',
+    },
   })
 })
 
